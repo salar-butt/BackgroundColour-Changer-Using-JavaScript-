@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#main {
+  background-color: purple;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+#second {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+  background-color: white;
+  height: 35%;
+  border-radius: 20px;
+  width: 58%;
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+#third {
+  position: absolute;
+  left: 95% ;
+  top: 13%;
+  height: 7vh;
+  width: 20vw;
+  background-color: rgb(228, 221, 221);
+  transition: 2s;
+}
+
+/* -------------------second toggle div---------------- */
+.cardshow {
+    left: 80% !important;
+    transition: 2s ;
+  }
+
+
+#third > h3 {
+  color: purple;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+#icon {
+  position: absolute;
+  font-size: 20px;
+  color: purple;
+  left: 9%;
+  top:10px;
+  cursor:pointer;
+  animation: icon 2s linear infinite;
+}
+@keyframes icon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+h1 {
+  text-align: center;
+  margin-top: 7%;
+  color: purple;
+  font-size: 70px;
+}
+#colordivs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top: 20%;
+  left: 100%;
+  height: 35vh;
+  width: 20vw;
+  background-color: rgb(255, 255, 255);
+  transition: 2s;
+}
+
+
+.cardtwo {
+    left: 80% !important;
+    transition: 1s;
+  }
+
+
+
+.div1 {
+  height: 10.5vh;
+  width: 5vw;
+  border-radius: 100px;
+  margin-left: 17px;
+  background-color: yellow;
+  transition: 1s;
+}
+.div1:hover {
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 0px 0px 5px 2px gray;
+}
+.div2 {
+  background-color: red;
+}
+.div3 {
+  background-color: green;
+}
+.div4 {
+  background-color: blue;
+}
+.div5 {
+  background-color: orange;
+}
+.div6 {
+  background-color: pink;
+}
+.div7 {
+  background-color: navy;
+}
+.div8 {
+  background-color: brown;
+}
+.div9 {
+  background-color: rgb(21, 224, 214);
+}
+
